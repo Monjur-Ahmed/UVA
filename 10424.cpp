@@ -1,0 +1,316 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char name1[26];
+    char name2[26];
+    int temp;
+    int a=1,b=2,c=3,d=4,e=5,f=6,g=7,h=8,I=9,j=10,k=11,l=12,m=13,n=14,o=15,p=16,q=17,r=18,s=19,t=20,u=21,v=22,w=23,x=24,y=25,z=26;
+   printf("Enter Two name\n");
+    while(scanf("%s %s",name1,name2)!=EOF)
+    {
+        int sum,sum1=0,sum2=0,sum3=0,sum4=0,sum5=0,sum6=0,sum7=0,sum8=0,sum9=0,sum10=0,sum11=0,sum12=0,sum13=0,sum14=0,sum15=0,sum16=0,sum17=0,sum18=0,sum19=0,sum20=0,sum21=0,sum22=0,sum23=0,sum24=0,sum25=0,sum26=0;
+    for(int i=0;name1[i]!='\0';i++)
+    {
+        if((name1[i]=='a')||(name1[i]=='A'))
+            {
+                sum1=sum1+a;
+            }
+            if((name1[i]=='b')||(name1[i]=='B'))
+            {
+                sum2=sum2+b;
+            }
+             if((name1[i]=='c')||(name1[i]=='C'))
+            {
+                sum3=sum3+c;
+            }
+            if((name1[i]=='d')||(name1[i]=='D'))
+            {
+                sum4=sum4+d;
+            }
+             if((name1[i]=='e')||(name1[i]=='E'))
+            {
+                sum5=sum5+e;
+            }
+            if((name1[i]=='f')||(name1[i]=='F'))
+            {
+                sum6=sum6+f;
+            }
+             if((name1[i]=='g')||(name1[i]=='G'))
+            {
+                sum7=sum7+g;
+            }
+            if((name1[i]=='h')||(name1[i]=='H'))
+            {
+                sum8=sum8+h;
+            }
+            if((name1[i]=='i')||(name1[i]=='I'))
+            {
+                sum9=sum9+I;
+            }
+            if((name1[i]=='j')||(name1[i]=='J'))
+            {
+                sum10=sum10+j;
+            }
+             if((name1[i]=='k')||(name1[i]=='K'))
+            {
+                sum11=sum11+k;
+            }
+            if((name1[i]=='l')||(name1[i]=='L'))
+            {
+                sum12=sum12+l;
+            }
+             if((name1[i]=='m')||(name1[i]=='M'))
+            {
+                sum13=sum13+m;
+            }
+            if((name1[i]=='n')||(name1[i]=='N'))
+            {
+                sum14=sum14+n;
+            }
+             if((name1[i]=='o')||(name1[i]=='O'))
+            {
+                sum15=sum15+o;
+            }
+            if((name1[i]=='p')||(name1[i]=='P'))
+            {
+                sum16=sum16+p;
+            }
+              if((name1[i]=='q')||(name1[i]=='Q'))
+            {
+                sum17=sum17+q;
+            }
+             if((name1[i]=='r')||(name1[i]=='R'))
+            {
+                sum18=sum18+r;
+            }
+            if((name1[i]=='s')||(name1[i]=='S'))
+            {
+                sum19=sum19+s;
+            }
+             if((name1[i]=='t')||(name1[i]=='T'))
+            {
+                sum20=sum20+t;
+            }
+            if((name1[i]=='u')||(name1[i]=='U'))
+            {
+                sum21=sum21+u;
+            }
+              if((name1[i]=='v')||(name1[i]=='V'))
+            {
+                sum22=sum22+v;
+            }
+             if((name1[i]=='w')||(name1[i]=='W'))
+            {
+                sum23=sum23+w;
+            }
+            if((name1[i]=='x')||(name1[i]=='X'))
+            {
+                sum24=sum24+x;
+            }
+              if((name1[i]=='y')||(name1[i]=='Y'))
+            {
+                sum25=sum25+y;
+            }
+            if((name1[i]=='z')||(name1[i]=='Z'))
+            {
+                sum26=sum26+z;
+            }
+    }
+    sum=sum1+sum2+sum3+sum4+sum5+sum6+sum7+sum8+sum9+sum10+sum11+sum12+sum13+sum14+sum15+sum16+sum17+sum18+sum19+sum20+sum21+sum22+sum23+sum24+sum25+sum26;
+    temp=sum;
+    sum=0;
+    sum1=0,sum2=0,sum3=0,sum4=0,sum5=0,sum6=0,sum7=0,sum8=0,sum9=0,sum10=0,sum11=0,sum12=0,sum13=0,sum14=0,sum15=0,sum16=0,sum17=0,sum18=0,sum19=0,sum20=0,sum21=0,sum22=0,sum23=0,sum24=0,sum25=0,sum26=0;
+    for(int i=0;name2[i]!='\0';i++)
+    {
+        if((name2[i]=='a')||(name2[i]=='A'))
+            {
+                sum1=sum1+a;
+            }
+            if((name2[i]=='b')||(name2[i]=='B'))
+            {
+                sum2=sum2+b;
+            }
+             if((name2[i]=='c')||(name2[i]=='C'))
+            {
+                sum3=sum3+c;
+            }
+            if((name2[i]=='d')||(name2[i]=='D'))
+            {
+                sum4=sum4+d;
+            }
+             if((name2[i]=='e')||(name2[i]=='E'))
+            {
+                sum5=sum5+e;
+            }
+            if((name2[i]=='f')||(name2[i]=='F'))
+            {
+                sum6=sum6+f;
+            }
+             if((name2[i]=='g')||(name2[i]=='G'))
+            {
+                sum7=sum7+g;
+            }
+            if((name2[i]=='h')||(name2[i]=='H'))
+            {
+                sum8=sum8+h;
+            }
+            if((name2[i]=='i')||(name2[i]=='I'))
+            {
+                sum9=sum9+I;
+            }
+            if((name2[i]=='j')||(name2[i]=='J'))
+            {
+                sum10=sum10+j;
+            }
+             if((name2[i]=='k')||(name2[i]=='K'))
+            {
+                sum11=sum11+k;
+            }
+            if((name2[i]=='l')||(name2[i]=='L'))
+            {
+                sum12=sum12+l;
+            }
+             if((name2[i]=='m')||(name2[i]=='M'))
+            {
+                sum13=sum13+m;
+            }
+            if((name2[i]=='n')||(name2[i]=='N'))
+            {
+                sum14=sum14+n;
+            }
+             if((name2[i]=='o')||(name2[i]=='O'))
+            {
+                sum15=sum15+o;
+            }
+            if((name2[i]=='p')||(name2[i]=='P'))
+            {
+                sum16=sum16+p;
+            }
+              if((name2[i]=='q')||(name2[i]=='Q'))
+            {
+                sum17=sum17+q;
+            }
+             if((name2[i]=='r')||(name2[i]=='R'))
+            {
+                sum18=sum18+r;
+            }
+            if((name2[i]=='s')||(name2[i]=='S'))
+            {
+                sum19=sum19+s;
+            }
+             if((name2[i]=='t')||(name2[i]=='T'))
+            {
+                sum20=sum20+t;
+            }
+            if((name2[i]=='u')||(name2[i]=='U'))
+            {
+                sum21=sum21+u;
+            }
+              if((name2[i]=='v')||(name2[i]=='V'))
+            {
+                sum22=sum22+v;
+            }
+             if((name2[i]=='w')||(name2[i]=='W'))
+            {
+                sum23=sum23+w;
+            }
+            if((name2[i]=='x')||(name2[i]=='X'))
+            {
+                sum24=sum24+x;
+            }
+              if((name2[i]=='y')||(name2[i]=='Y'))
+            {
+                sum25=sum25+y;
+            }
+            if((name2[i]=='z')||(name2[i]=='Z'))
+            {
+                sum26=sum26+z;
+            }
+    }
+     sum=sum1+sum2+sum3+sum4+sum5+sum6+sum7+sum8+sum9+sum10+sum11+sum12+sum13+sum14+sum15+sum16+sum17+sum18+sum19+sum20+sum21+sum22+sum23+sum24+sum25+sum26;
+  int first,second;
+  first=temp;
+  second=sum;
+  int rem=0;
+  sum=0;
+
+  while(first!=0)
+  {
+      rem=first%10;
+      sum=sum+rem;
+      first/=10;
+  }
+  if(sum>9)
+  {
+      first=sum;
+    sum=0;
+  while(first!=0)
+  {
+      rem=first%10;
+      sum=sum+rem;
+      first/=10;
+  }
+
+  }
+  if(sum>9)
+  {
+      first=sum;
+    sum=0;
+  while(first!=0)
+  {
+      rem=first%10;
+      sum=sum+rem;
+      first/=10;
+  }
+
+  }
+
+  int add=sum;
+  sum=0;
+
+  while(second!=0)
+  {
+      rem=second%10;
+      sum=sum+rem;
+      second/=10;
+  }
+  if(sum>9)
+  {
+      second=sum;
+      sum=0;
+       while(second!=0)
+  {
+      rem=second%10;
+      sum=sum+rem;
+      second/=10;
+  }
+
+  }
+   if(sum>9)
+  {
+      second=sum;
+      sum=0;
+       while(second!=0)
+  {
+      rem=second%10;
+      sum=sum+rem;
+      second/=10;
+  }
+
+  }
+int add2=sum;
+double x=add,y=add2,result=0;
+if(x>y)
+{
+    result=y/x*100;
+}
+else
+{
+    result=x/y*100;
+}
+
+printf("%.2lf %c\n",result,'%');
+  }
+  return 0;
+}
